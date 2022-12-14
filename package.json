@@ -1,21 +1,23 @@
 {
   "name": "splitwise",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@babel/preset-react": "^7.18.6",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
-    "@rails/ujs": "^6.0.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react_ujs": "^2.6.2",
     "turbolinks": "^5.2.0",
     "zustand": "^4.1.5"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-dev-server": "^4.11.1"
+    "@vitejs/plugin-react": "^3.0.0",
+    "vite": "^3.2.0",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-ruby": "^3.1.2"
   }
 }
